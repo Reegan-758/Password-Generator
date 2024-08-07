@@ -10,7 +10,7 @@ This repository contains two versions of a password generator written in Python:
 - Simple and easy-to-use command-line interface
 
 ### Usage
-1. Navigate to the `command-line` directory:
+1. Navigate to the `Command-Line` directory:
 
 ```bash
 cd command-line
@@ -44,19 +44,18 @@ Generated password: a1b2c3d4!@#$
 
 ## Usage
 
-**  Navigate to the gui directory:**
+**Navigate to the `GUI` directory:**
 
 ```bash
 cd gui
 ```
-**Run the password generator script:
-**
+**Run the password generator script:**
 ```bash
 python password_generator_gui.py
 ```
 ## GUI Interface
 
-  -Enter the desired password length.
+  - Enter the desired password length.
   + Select the character types to include (letters, numbers, symbols).
   + Click the "Generate Password" button to create a password.
   + Click the "Copy to Clipboard" button to copy the generated password to the clipboard.
@@ -77,13 +76,13 @@ python password_generator_gui.py
 pip install tk pyperclip
 ```
 # Code Overview
-## Command-Line Version (command-line/password_generator.py)
+## Command-Line Version (Command-Line/password_generator.py)
 
   + generate_password(length, use_letters, use_numbers, use_symbols): Generates a random password based on the specified criteria.
   + get_user_preferences(): Prompts the user for password preferences (length, character types).
   + main(): Main function to run the command-line password generator.
 
-## GUI Version (gui/password_generator_gui.py)
+## GUI Version (GUI/password_generator_gui.py)
   + generate_password(length, use_letters, use_numbers, use_symbols): Generates a random password based on the specified criteria.
   + PasswordGeneratorApp: A class that creates the GUI application using Tkinter.
   +  __init__(self, root): Initializes the GUI components.
