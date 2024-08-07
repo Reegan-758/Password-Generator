@@ -99,4 +99,4 @@ pip install tk pyperclip
 
 # Contact
 
-For any questions or feedback, please contact [Reegan Aakish C](www.linkedin.com/in/reegan-aakish-c-690a12232).
+For any questions or feedback, please contact [Reegan Aakish C](reeganaakish@gmail.com)
